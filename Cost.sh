@@ -1,0 +1,18 @@
+#!/bin/bash
+clear
+let HOURLY_FEE=14500
+let TOTAL_HOURS=95
+let TOTAL_MONTHS=7
+let TOTAL_FEE=HOURLY_FEE*TOTAL_HOURS
+let MONTHLY_FEE=TOTAL_FEE/TOTAL_MONTHS
+let DURATION_FEE=TOTAL_MONTHS*MONTHLY_FEE
+
+echo "Hourly fee: $HOURLY_FEE"
+echo
+echo "Total hours: $TOTAL_HOURS"
+echo
+echo "Total fee: $TOTAL_FEE"
+echo
+echo "Monthly fee: $MONTHLY_FEE"
+echo
+echo "TOTAL COUSE FEE: $DURATION_FEE"
